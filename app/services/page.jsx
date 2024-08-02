@@ -65,7 +65,8 @@ const AboutMe = () => {
               height="500"
               autoPlay
               muted
-              className="rounded-xl"
+              playsInline
+              className="rounded-xl video-mobile"
             >
               <source src="/assets/Hi.mp4" type="video/mp4" />
               Your browser does not support the video tag.

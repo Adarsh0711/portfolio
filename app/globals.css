@@ -37,4 +37,11 @@
   .tab:hover {
     @apply text-blue-700;
   }
+
+  @media (max-width: 767px) {
+    .video-mobile {
+      width: 100%;
+      height: auto;
+    }
+  }
 }
