@@ -38,24 +38,10 @@
     @apply text-blue-700;
   }
 
-  /* Add media queries for mobile devices */
   @media (max-width: 767px) {
-    .experience-item {
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .experience-item h3 {
-      max-width: 100%;
-      min-height: auto;
-    }
-
-    .experience-item .flex {
-      justify-content: center;
-    }
-
-    .experience-item .list-disc {
-      padding-left: 20px;
+    .video-mobile {
+      width: 100%;
+      height: auto;
     }
   }
 }
