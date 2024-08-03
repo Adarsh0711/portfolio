@@ -208,8 +208,8 @@ const Resume = () => {
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[400px]">
-                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                    <li className="bg-[#e5e7eb] h-auto py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1 col-span-2">
+                  <ul className="experience-grid">
+                    <li className="experience-item bg-[#e5e7eb] h-auto py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                       <span className="text-blue-500">{experience.items[0].duration}</span>
                       <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left text-black">
                         {experience.items[0].position}
@@ -229,7 +229,7 @@ const Resume = () => {
                         </ul>
                       </div>
                     </li>
-                    <li className="bg-[#e5e7eb] h-[250px] py-8 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                    <li className="experience-item bg-[#e5e7eb] h-[250px] py-8 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                       <span className="text-blue-500">{experience.items[1].duration}</span>
                       <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left text-black">
                         {experience.items[1].position}
@@ -240,7 +240,7 @@ const Resume = () => {
                         <p className="text-black/60 text-lg font-bold">{experience.items[1].company}</p>
                       </div>
                     </li>
-                    <li className="bg-[#e5e7eb] h-[250px] py-8 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                    <li className="experience-item bg-[#e5e7eb] h-[250px] py-8 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                       <span className="text-blue-500">{experience.items[2].duration}</span>
                       <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left text-black">
                         {experience.items[2].position}</h3>

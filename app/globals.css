@@ -38,10 +38,24 @@
     @apply text-blue-700;
   }
 
-  @media (max-width: 767px) {
-    .video-mobile {
-      width: 100%;
-      height: auto;
+  @media (max-width: 800px) {
+    .experience-grid {
+      display: flex;
+      flex-direction: column;
+    }
+    .experience-item {
+      grid-column: span 1 / span 1;
+    }
+  }
+
+  @media (min-width: 801px) {
+    .experience-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    .experience-item:nth-child(1) {
+      grid-column: span 2 / span 2;
     }
   }
 }
