@@ -38,62 +38,10 @@
     @apply text-blue-700;
   }
 
-  @media (max-width: 800px) {
-    .experience-item, .education-item, .skill-item {
-      flex-direction: column;
-      text-align: center;
+  @media (max-width: 767px) {
+    .video-mobile {
       width: 100%;
-      margin: 0 auto;
-      padding: 1rem;
-    }
-
-    .experience-item h3, .education-item h3, .skill-item h3 {
-      max-width: 100%;
-      min-height: auto;
-      word-wrap: break-word;
-    }
-
-    .experience-item .flex, .education-item .flex, .skill-item .flex {
-      justify-content: center;
-    }
-
-    .experience-item .list-disc, .education-item .list-disc, .skill-item .list-disc {
-      padding-left: 20px;
-    }
-
-    .experience-container, .education-container, .skill-container {
-      padding: 0 1rem;
-    }
-
-    .experience-container ul {
-      grid-template-columns: 1fr !important;
-    }
-  }
-
-  @media (min-width: 801px) {
-    .experience-item, .education-item, .skill-item {
-      flex-direction: row;
-      text-align: left;
-      width: auto;
-      padding: initial;
-    }
-
-    .experience-item h3, .education-item h3, .skill-item h3 {
-      max-width: 260px;
-      min-height: 60px;
-      word-wrap: normal;
-    }
-
-    .experience-item .flex, .education-item .flex, .skill-item .flex {
-      justify-content: flex-start;
-    }
-
-    .experience-item .list-disc, .education-item .list-disc, .skill-item .list-disc {
-      padding-left: initial;
-    }
-
-    .experience-container, .education-container, .skill-container {
-      padding: initial;
+      height: auto;
     }
   }
 }
