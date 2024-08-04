@@ -23,7 +23,7 @@ const Home = () => {
                 download
                 className="uppercase flex items-center gap-2 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-4 py-2 rounded-lg"
               >
-                <span>Download CV</span>
+                <span>Download Resume</span>
                 <FiDownload className="text-xl" />
               </a>
               <div className="mb-8 xl:mb-0 flex justify-center">
