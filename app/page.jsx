@@ -14,7 +14,7 @@ const Home = () => {
               Hello, I'm <br /> <span className="text-blue-500">Adarsh Bandaru</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-black/80 text-justify">
-              I turn coffee ☕ into code and data into actionable insights. Whether it's taming wild datasets or crafting predictive models, I bring magic to the world of data science and analytics. Let's connect and make data work for us!
+              I turn coffee ☕ into code and data into actionable insights. Whether it's analyzing complex datasets or building predictive models, I bring expertise to the world of data science and analytics. Let's connect and make data work for us!
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
