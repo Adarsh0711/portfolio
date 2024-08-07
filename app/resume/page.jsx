@@ -83,7 +83,7 @@ const education = {
     {
       institution: "State University of New York at Buffalo",
       degree: "Master of Science in Computer Science",
-      duration: "August 2023 - January 2025",
+      duration: "August 2023 - December 2024",
     },
     {
       institution: "Vellore Institute of Technology",
