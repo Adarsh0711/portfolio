@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # My Portfolio
 
 Welcome to my personal portfolio! This project showcases my skills, experience, and projects in the field of Data Science, Machine Learning, and Web Development.
