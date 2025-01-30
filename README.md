@@ -14,5 +14,3 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 - **Frontend**: HTML, CSS, JavaScript, React, Tailwind CSS
 - **Other**: Vercel for deployment, Git for version control
-=======
-
