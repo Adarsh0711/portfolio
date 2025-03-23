@@ -47,23 +47,22 @@ const experience = {
   items: [
     {
       company: "MiQ Digital",
-      position: "Analyst I & Intern",
+      position: "Analyst (Data Science, Analytics & Engineering)",
       duration: "Jan 2022 - Jul 2023",
       responsibilities: [
         "Here is where I found that laughter and hard work can go hand in hand.",
         "Key contributions:",
-        "Generated insightful ad campaign reports and recommendations for diverse clients spanning various industries.",
-        "Built dashboards that streamlined reporting for internal business operations and customer engagements, reducing manual report generation by over 70%.",
-        "Developed automation solutions for generating IP-based targeting segments using TV Data, reducing processing time from 2.5 hours to 7 minutes per request, saving over 1000+ hours.",
-        "Collaborated with different teams in strategic planning, analysis, ad campaign planning, and took leadership in overseeing specific tasks from the analytics side for the 2022 US Senate and Governor elections.",
-        "Created vertical studies across domains to enhance campaign performance by leveraging current trends and diverse channels like CTV, Audio, and Display.",
-        "Performed exploratory data analysis (EDA) for multiple clients, uncovering new insights and driving strategic improvements.",
+        "Developed interactive dashboards in Power BI, Tableau, and Looker to visualize campaign performance, audience segmentation, and pacing trends, reducing manual reporting efforts by 70% and enhancing transparency for both internal teams and external clients.",
+        "Analyzed campaign data from DV360, TTD, Yahoo, and Xandr on Databricks and Redshift using SQL, PySpark, Pandas, and visualization tools to identify performance gaps, enabling data-backed improvements that elevated key marketing KPIs.",
+        "Led data-driven optimizations for high-impact political campaigns by building cross-cloud pipelines that aggregated raw data from Amazon S3 using Databricks and loaded it into BigQuery. Powered real-time insights via Looker dashboards, supporting targeting and pacing decisions in a $90M+ revenue vertical.",
+        "Engineered an IP-based audience targeting system using Python, AWS Databricks, and APIs to activate high-priority audiences dynamically; reduced activation time from 150 minutes to 7 minutes, saving over 1,000 hours of manual work.",
+        "Automated ETL workflows on AWS Databricks using Apache Airflow, leveraging Databricks-managed compute and Amazon S3 to reduce pipeline runtime by 48% and enable hourly campaign data refreshes for near real-time reporting.",
         "Explored newly onboarded DSP and enhanced the reporting and activation capabilities.",
       ],
     },
     {
       company: "Humourbaba.com",
-      position: "Digital Marketing & Data Analyst Intern",
+      position: "Marketing Analyst Intern",
       duration: "Jul 2020 - Nov 2020",
     },
     {
