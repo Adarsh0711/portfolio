@@ -61,9 +61,9 @@ const experience = {
       ],
     },
     {
-      company: "Humourbaba.com",
+      company: "House of Babas",
       position: "Marketing Analyst Intern",
-      duration: "Jul 2020 - Nov 2020",
+      duration: "Jul 2020 - Dec 2020",
     },
     {
       company: "Sankalpsoft",
