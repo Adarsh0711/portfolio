@@ -47,7 +47,7 @@ const experience = {
   items: [
     {
       company: "MiQ Digital",
-      position: "Analyst (Data Science, Analytics & Engineering)",
+      position: "Analyst (Data Science & Analytics)",
       duration: "Jan 2022 - Jul 2023",
       responsibilities: [
         "Here is where I found that laughter and hard work can go hand in hand.",
