@@ -62,7 +62,7 @@ const experience = {
     },
     {
       company: "House of Babas",
-      position: "Marketing Analyst Intern",
+      position: "Marketing Analyst",
       duration: "Jul 2020 - Dec 2020",
     },
     {
